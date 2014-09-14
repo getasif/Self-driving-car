@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sensor_height_layout_front">150dp</dimen>
+    <dimen name="sensor_width_layout_front">200dp</dimen>
+    <dimen name="sensor_leftMargin_front">186dp</dimen>
+    <dimen name="sensor_height_layout_back">100dp</dimen>
+    <dimen name="sensor_width_layout_back">150dp</dimen>
+    <dimen name="sensor_leftMargin_back">208dp</dimen>
+    <dimen name="sensor_bottomMargin_back">5dp</dimen>
+
+    <dimen name="dashboard_mode_select_leftMargin_1">10dp</dimen>
+    <dimen name="dashboard_mode_select_leftMargin_2">190dp</dimen>
+    <dimen name="dashboard_mode_select_leftMargin_3">360dp</dimen>
+
+    <dimen name="dashboard_startStop_select_leftMargin_1">10dp</dimen>
+    <dimen name="dashboard_startStop_select_leftMargin_2">270dp</dimen>
+
+    <dimen name="dashboard_button_row1_topMargin">10dp</dimen>
+    <dimen name="dashboard_button_row2_topMargin">50dp</dimen>
+
+    <dimen name="button_width_2">270dp</dimen>
+    <dimen name="button_width_3">180dp</dimen>
+
+    <color name="transparent">@null</color>
+    <color name="dashboard_button_text_color">#ff0000</color>
+    <color name="black">#000000</color>
+
+</resources>

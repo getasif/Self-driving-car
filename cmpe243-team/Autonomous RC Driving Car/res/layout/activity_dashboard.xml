@@ -1,0 +1,308 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="0dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#000000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.cmpe243.googlemapstest.DashboardActivity"
+    >
+
+
+    <ImageView
+        android:layout_width="4000dp"
+        android:layout_height="8000dp"
+        android:id="@+id/background_animation"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dashboardTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:id="@+id/carSensor"
+        android:src="@drawable/carsensor"
+        android:layout_marginBottom="100dp"
+        android:layout_alignBottom="@+id/background_animation"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="s1"
+        android:paddingLeft="30dp"
+        android:id="@+id/s1TextView"
+        android:layout_alignTop="@+id/carSensor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ff0000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="s3"
+        android:paddingRight="25dp"
+        android:id="@+id/s3TextView"
+        android:layout_alignTop="@+id/carSensor"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ff0000"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:id="@+id/speedImageView"
+        android:layout_below="@+id/dashboardTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/meter"
+        android:layout_marginBottom="550dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:id="@+id/needleImageView"
+        android:layout_alignTop="@+id/speedImageView"
+        android:layout_alignRight="@+id/speedImageView"
+        android:src="@drawable/meter_needle"
+        android:layout_alignEnd="@+id/speedImageView"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="350dp"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_front"
+        android:layout_height="@dimen/sensor_height_layout_front"
+        android:id="@+id/sensorGR1ImageView"
+        android:src="@drawable/sensor_gr1"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_front"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_front"
+        android:layout_height="@dimen/sensor_height_layout_front"
+        android:id="@+id/sensorGC1mageView"
+        android:src="@drawable/sensor_gc1"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_front"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_front"
+        android:layout_height="@dimen/sensor_height_layout_front"
+        android:id="@+id/sensorGL1ImageView"
+        android:src="@drawable/sensor_gl1"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_front"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_front"
+        android:layout_height="@dimen/sensor_height_layout_front"
+        android:id="@+id/sensorGL2mageView"
+        android:src="@drawable/sensor_gl2"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_front"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_front"
+        android:layout_height="@dimen/sensor_height_layout_front"
+        android:id="@+id/sensorGC2mageView"
+        android:src="@drawable/sensor_gc2"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_front"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_front"
+        android:layout_height="@dimen/sensor_height_layout_front"
+        android:id="@+id/sensorGR2mageView"
+        android:src="@drawable/sensor_gr2"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_front"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_front"
+        android:layout_height="@dimen/sensor_height_layout_front"
+        android:id="@+id/sensorGR3mageView"
+        android:src="@drawable/sensor_gr3"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_front"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_front"
+        android:layout_height="@dimen/sensor_height_layout_front"
+        android:id="@+id/sensorGL3mageView"
+        android:src="@drawable/sensor_gl3"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_front"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_front"
+        android:layout_height="@dimen/sensor_height_layout_front"
+        android:id="@+id/sensorGC3mageView"
+        android:src="@drawable/sensor_gc3"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_front"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_front"
+        android:layout_height="@dimen/sensor_height_layout_front"
+        android:id="@+id/sensorGC4mageView"
+        android:src="@drawable/sensor_gc4"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_front"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_front"
+        android:layout_height="@dimen/sensor_height_layout_front"
+        android:id="@+id/sensorGL4mageView"
+        android:src="@drawable/sensor_gl4"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_front"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_front"
+        android:layout_height="@dimen/sensor_height_layout_front"
+        android:id="@+id/sensorGR4mageView"
+        android:src="@drawable/sensor_gr4"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_front"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_back"
+        android:layout_height="@dimen/sensor_height_layout_back"
+        android:id="@+id/sensorBC1mageView"
+        android:src="@drawable/sensor_bc1"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_back"
+        android:layout_alignBottom="@+id/background_animation"
+        android:layout_marginBottom="@dimen/sensor_bottomMargin_back"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_back"
+        android:layout_height="@dimen/sensor_height_layout_back"
+        android:id="@+id/sensorBC2mageView"
+        android:src="@drawable/sensor_bc2"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_back"
+        android:layout_alignBottom="@+id/background_animation"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_back"
+        android:layout_height="@dimen/sensor_height_layout_back"
+        android:id="@+id/sensorBC3mageView"
+        android:src="@drawable/sensor_bc3"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_back"
+        android:layout_alignBottom="@+id/background_animation"/>
+
+    <ImageView
+        android:layout_width="@dimen/sensor_width_layout_back"
+        android:layout_height="@dimen/sensor_height_layout_back"
+        android:id="@+id/sensorBC4mageView"
+        android:src="@drawable/sensor_bc4"
+        android:layout_above="@+id/carSensor"
+        android:layout_marginLeft="@dimen/sensor_leftMargin_back"
+        android:layout_alignBottom="@+id/background_animation"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start/Stop"
+        android:textColor="@color/dashboard_button_text_color"
+        android:background="@color/transparent"
+        android:id="@+id/startStopButton"
+        android:layout_marginTop="@dimen/dashboard_button_row1_topMargin"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed Mode"
+        android:textColor="@color/dashboard_button_text_color"
+        android:background="@color/transparent"
+        android:id="@+id/speedModeButton"
+        android:layout_marginTop="@dimen/dashboard_button_row1_topMargin"
+        android:layout_marginLeft="230dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drive Mode"
+        android:textColor="@color/dashboard_button_text_color"
+        android:background="@color/transparent"
+        android:id="@+id/driveModeButton"
+        android:layout_marginTop="@dimen/dashboard_button_row1_topMargin"
+        android:layout_marginLeft="450dp"/>
+
+    <Button
+        android:layout_width="@dimen/button_width_2"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textColor="@color/dashboard_button_text_color"
+        android:background="@color/transparent"
+        android:id="@+id/startButton"
+        android:layout_marginTop="@dimen/dashboard_button_row2_topMargin"
+        android:visibility="invisible"
+        android:layout_marginLeft="@dimen/dashboard_startStop_select_leftMargin_1"/>
+
+    <Button
+        android:layout_width="@dimen/button_width_2"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:textColor="@color/dashboard_button_text_color"
+        android:background="@color/transparent"
+        android:id="@+id/stopButton"
+        android:layout_marginTop="@dimen/dashboard_button_row2_topMargin"
+        android:visibility="invisible"
+        android:layout_marginLeft="@dimen/dashboard_startStop_select_leftMargin_2"/>
+
+    <Button
+        android:layout_width="@dimen/button_width_3"
+        android:layout_height="wrap_content"
+        android:text="Slow"
+        android:textColor="@color/dashboard_button_text_color"
+        android:background="@color/transparent"
+        android:id="@+id/slowSpeedButton"
+        android:layout_marginTop="@dimen/dashboard_button_row2_topMargin"
+        android:visibility="invisible"
+        android:layout_marginLeft="@dimen/dashboard_mode_select_leftMargin_1"/>
+
+    <Button
+        android:layout_width="@dimen/button_width_3"
+        android:layout_height="wrap_content"
+        android:text="Normal"
+        android:textColor="@color/dashboard_button_text_color"
+        android:background="@color/transparent"
+        android:id="@+id/normalSpeedButton"
+        android:layout_marginTop="@dimen/dashboard_button_row2_topMargin"
+        android:visibility="invisible"
+        android:layout_marginLeft="@dimen/dashboard_mode_select_leftMargin_2"/>
+
+    <Button
+        android:layout_width="@dimen/button_width_3"
+        android:layout_height="wrap_content"
+        android:text="Turbo"
+        android:textColor="@color/dashboard_button_text_color"
+        android:background="@color/transparent"
+        android:id="@+id/turboSpeedButton"
+        android:layout_marginTop="@dimen/dashboard_button_row2_topMargin"
+        android:visibility="invisible"
+        android:layout_marginLeft="@dimen/dashboard_mode_select_leftMargin_3"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/infoImageView"
+        android:layout_alignTop="@+id/sensorBC1mageView"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/info_sign"
+        android:layout_marginLeft="60dp"/>
+
+
+</RelativeLayout>

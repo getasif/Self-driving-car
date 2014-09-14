@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Team-4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_free_run">FreeRunActivity</string>
+    <string name="title_activity_led_blink">LedBlinkActivity</string>
+    <string name="title_activity_moving_car">MovingCarActivity</string>
+    <string name="title_activity_speed_gauge">SpeedGaugeActivity</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+
+</resources>
